@@ -1,0 +1,87 @@
+body{
+    padding-top: 50px;
+    width: 100%;
+}
+
+#Nav .navbar{
+    background-color: rgb(243, 234, 234);  
+    width: 100%; 
+}
+
+.navbar-brand {
+    font-size: 30px !important;
+    color: rgb(62, 60, 51)  !important;
+    font-weight: 600;
+}
+
+#Nav .navbar-toggler{
+    color: rgb(94, 92, 88) ;
+}
+
+#Nav .navbar a{
+    color: rgb(116, 113, 108);   
+}
+
+li .nav-signup{
+    text-align: right !important;
+    color: cornsilk !important;
+}
+
+#products .col-sm-8{
+   padding:  40px;
+}
+
+#products .col-sm-8 img{
+    width: 100%;
+    height: auto;
+    
+}
+
+#products .col-sm-4 p{
+    text-align: center;
+    margin-top: 15%;
+    font-size: 25px;
+ }
+
+footer{
+    text-align: center;
+    background-color: rgb(62, 74, 98);
+    color: cornsilk;
+}
+
+footer h1{
+    padding-top: 20px;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+#Card{
+    padding: 20px;
+    text-align: center;
+}
+
+#Card .card{
+    padding: 10px;
+    margin: 10px;
+}
+
+#Card .card p{
+    color: darkgray;
+}
+
+#FormID{
+    background-image: url(img1.jpg)
+}
+
+.Form{
+    text-align: center;
+    background-color: whitesmoke;
+    margin:15%;
+    padding: 25px;
+    opacity: 0.8;
+    border-radius: 2%;
+}

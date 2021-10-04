@@ -1,0 +1,188 @@
+#Nav .navbar{
+    background-color: rgb(68, 131, 233) !important;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#Nav .navbar a{
+    color: cornsilk !important;
+}
+
+#Jumbo .jumbotron{
+    background-image: url(back-img.jpg);
+    background-size: cover;
+    height: auto;
+    margin-bottom: 0%;
+}
+#Jumbo .jumbotron h1{
+    padding: 30px;
+    font-weight: 500;
+    color: cornsilk;
+}
+#Jumbo .jumbotron p{
+    padding-top: 30vh;
+    padding-bottom: 20px;
+    font-weight: 600;
+    color: rgb(255, 252, 241);
+}
+
+#Jumbo .jumbotron button{
+    display: flex;
+    justify-content: center;
+    padding: 10px 30px 10px 30px;
+    border-radius: 0%;
+}
+
+#Jumbo .jumbotron a{
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+    color: black;
+}
+
+#home-content{
+    background-color: rgb(207, 209, 209);
+}
+
+#home-content h1{
+    text-align: center;
+    padding: 10px;
+}
+
+#home-content p{
+    text-align: center;
+    padding: 10px;
+}
+
+#Grid-content{
+    text-align: center;
+    padding: 20px;
+}
+#Grid-content h2{
+    padding: 20px;
+}
+
+#Grid-content p{
+    padding: 20px;
+}
+
+#Grid-content .border-right{
+    border-right: 2px solid rgb(142, 128, 128) !important;
+}
+
+#reviews{
+    text-align: center;
+}
+
+#reviews .col-lg-4{
+    padding: 20px;
+}
+
+#reviews .col-lg-4 p{
+    padding: 10px;
+}
+
+#mission{
+    text-align: center;
+    background-color: rgb(216, 211, 204);
+    padding: 40px 20px 30px 20px;
+}
+#form{
+    background-color: rgb(110, 193, 226);
+}
+
+#form .row{
+    text-align: center !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+#form .form-control{
+    border-radius: 0;
+    margin: 20px;
+    width:90%
+}
+
+#Jumbo-search .jumbotron{
+    background-color: rgb(250, 249, 248);
+    margin-bottom: 0;
+}
+
+#Jumbo-search button,a{
+    display: flex;
+    justify-content: center;
+    padding: 10px 30px 10px 30px;
+    border-radius: 0%;
+}
+
+#Jumbo-pricing .jumbotron{
+    background-color: azure;
+}
+
+#pricing h5{
+    padding: 20px 10px 20px 10px;
+    font-size: 25px;
+}
+
+#pricing ul{
+    padding: 20px 10px 20px 10px;
+    font-size: 20px;
+}
+
+#pricing .btn{
+    border-radius: 0;
+    font-size: 20px;
+}
+
+#testimonials{
+    text-align: center;
+    padding-top:25px ;
+    background-color: azure;
+}
+
+#testimonials h3{
+   text-align: center;
+   font-size: 30px;
+}
+
+#testimonials p{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#testimonials img{
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+}
+
+#testimonials #identity{
+    
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#faq{
+    
+    text-align: center;
+    padding: 20px;
+    
+}
+
+#faq img{
+    height: 150px;
+    width: 150px;
+}
+
+#questions{
+    background-color: rgb(16, 37, 72);
+    color: azure;
+}
+
+#questions h3,p{
+    padding-left: 15px;
+    padding-top: 20px;
+}

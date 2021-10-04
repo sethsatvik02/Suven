@@ -1,0 +1,555 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial";
+}
+
+/*Home page*/
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left : 0;
+    width: 100%;
+    padding: 20px 20px 20px 20px; 
+}
+.navbar-brand{
+    color: rgb(0, 0, 0) !important;
+    font-weight: 600;
+}
+
+.nav-link{
+    color: rgb(0, 0, 0) !important;
+    font-weight: 550 !important;
+}
+
+.nav-link:hover{
+    color: rgb(156, 62, 58) !important;
+}
+
+.btn{
+    border-radius: 0%;
+    color: whitesmoke;
+    background-color:rgb(204, 50, 71);
+    padding: 1.5vh 5vh;
+    font-weight: bold;
+}
+
+#jumbo .jumbotron{
+    background-image: url('images/study3.jpg');
+    padding-bottom: 100px;
+    background-size: cover;
+    background-position: center;
+    color: #0f0e0e;
+    border-radius: 0px !important;
+}
+
+.jumbotron h1{
+    margin: 60px 0;
+    font-size: 50px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+.intro{
+    padding-top: 0px;
+}
+
+.form-group{
+    padding: 10px;
+}
+    
+#tutorials .container-fluid{
+    width: 85%;
+    margin-top: 0;
+    background-color:rgb(205, 202, 202);
+    padding:20px 20px;
+}
+
+#tutorials h1{
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom:5px;
+}
+
+.title{
+    text-align:center;
+    padding:25px 0px;
+}
+
+.title p{
+    font-size: 18px;
+}
+
+.card-body{
+    background-color:rgb(205, 202, 202);    
+}
+
+.card-body p{
+    color: rgb(204, 50, 71);
+}
+
+.card-body:hover  p{
+    color: whitesmoke;
+}
+
+.card-body:hover  h5{
+    color: whitesmoke;
+}
+
+.card{
+    margin: 20px 10px;
+}
+
+.card-body:hover{
+    background-color:  rgb(204, 50, 71);
+    text-decoration: none;
+}
+
+#courses .container-fluid{   
+    width: 85%;
+    margin-top: 0;    
+    padding:20px 20px;
+}
+
+
+#courses .jumbotron{
+    padding-top: 10px;
+    background-color:rgb(204, 50, 71);
+    color: whitesmoke;
+    border-radius: 0px !important;
+}
+
+#jform .container-fluid{
+    width: 85%;
+    background-color:rgba(255, 255, 255, 0.847);
+    padding: 30px;
+}
+
+#jform .form-group{
+    padding: 10px;
+}
+
+.footer{
+    background:yellowgreen;
+    color: black;
+    height:8%;
+    width: 100% ;
+    position: relative;
+}
+
+.footer  .About h5{
+    color: whitesmoke;
+}
+.footer .footer-content{
+    border: 0px solid grey;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.footer .footer-content .footer-section{
+    flex: 1;
+    padding:25px;
+    
+}
+
+.socials{
+    padding-top: 25px;
+}
+
+.footer-content a:link{
+    text-decoration: none;
+}
+
+.footer-content a:hover{
+    color:rgb(204, 50, 71);
+}
+
+.footer-content p{
+    color: grey;
+}
+
+/*Examples Page*/
+
+#jumbo-examples .jumbotron{
+    background-image: url('images/laptop.jpg');
+    padding-bottom: 0px;
+    background-size: cover;
+    
+    background-position: center;
+    color: #0f0e0e;
+    border-radius: 0px !important;
+}
+
+#jumbo-examples .intro{
+    padding: 60px  ;
+}
+
+#jumbo-examples .intro a{
+    color: black;
+    font-weight: 700;
+}
+
+#jumbo-examples .intro p{
+    color: rgb(241, 4, 36);
+    font-weight: 700;
+}
+
+#jumbo-examples .intro a:link{
+    text-decoration: none;
+    
+}
+#jumbo-examples .intro a:hover{
+    color: black;
+}
+
+#jumbo-examples #j .container-fluid{
+    width: 50%;
+    background-color:rgb(204, 50, 71);
+    padding-top: 15px;
+    margin-top:120px ;
+}
+
+#jumbo-examples #j .container-fluid h5{
+    font-weight: 600;
+    
+}
+
+@media screen and (min-width: 700px) {
+    #jumbo-examples #j .container-fluid h5 {
+      font-size: 25px;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    #jumbo-examples #j .container-fluid h5 {
+      font-size: 12px;
+    }
+  }
+#jumbo-examples #jform .container-fluid{
+    width: 85%;
+    background-color:rgb(204, 50, 71);
+    padding: 30px;
+    
+}
+
+#jumbo-examples #jform input::placeholder{
+    font-size: 12px;
+}
+
+#jumbo-examples #jform .btn{
+    background-color: black;
+    border-radius: 0%;
+    color: whitesmoke;
+    padding: 1.25vh 5vh;
+    font-weight: bold;
+}
+
+hr{
+    margin:auto !important;
+    margin-top: 80px !important;
+    width: 75%;  
+}
+
+#card-examples .title{
+    text-align: left;   
+}
+
+#card-examples .container-fluid{
+    padding: 0px 50px 45px 50px;
+    margin-top: 0;
+
+}
+
+#card-examples .card-body{
+    background-color:rgb(255, 250, 250);    
+}
+
+#card-examples .card-body ul{
+    color: rgb(10, 10, 10);
+    font-size: 13px;
+} 
+
+#card-examples .card-body h5{
+    color: grey;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#card-examples .card-body:hover  p{
+    color: none;
+    text-decoration: none;
+}
+
+#card-examples .card-body:hover  h5{
+    color:grey;
+}
+
+#card-examples .card{
+    margin: 20px 10px;
+}
+
+#card-examples .card-body:hover{
+    background-color:  none;
+    text-decoration: none;
+}
+
+/*Courses*/
+
+#jumbo-examples #j2 .container-fluid{
+    width: 30%;
+    text-align: center;
+    background-color:rgb(204, 50, 71);
+    padding-top: 15px;
+    margin-top:120px ;
+}
+
+#jumbo-examples #j2 .container-fluid h5{
+    font-weight: 600;
+}
+
+@media screen and (min-width: 700px) {
+    #jumbo-examples #j2 .container-fluid h5 {
+      font-size: 20px;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    #jumbo-examples #j2 .container-fluid h5 {
+      font-size: 10px;
+    }
+}
+
+/*Grid 1*/
+#Courses{
+    padding: 3% 10% 3% 10%;
+}
+
+#Courses .CourseInfo{
+    margin-top: 60px;
+}
+
+#Courses .course-img{
+    padding-right: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: auto;
+}
+
+#Courses .course-heading {
+    font-size: 25px;
+}
+
+#Courses .btn{
+    margin-top: 10px;
+    background-color: rgb(204, 50, 71);
+
+}
+
+#Courses .btn:hover{
+    background-color: rgb(204, 50, 71);
+}
+
+#Courses .circular-img{
+    border-radius: 50%;
+    margin: 0px 10px 0px 0px;
+    height: 30px;
+    width: 30px;    
+}
+
+#Courses .PageNav p{
+    color: rgb(204, 50, 71) ;
+    padding-top: 80px;
+}
+
+#Courses .PageNav a{
+    color: black;
+}
+
+#Courses .PageNav a:link{
+    text-decoration: none;
+}
+
+/*Grid 2*/
+#Courses .CourseNav{
+    margin-top: 50px;
+}
+#Courses .input-group .form-control{
+    margin-top: 10px;
+    padding:20px;
+    background-color:rgb(219, 212, 212);
+}
+#Courses .input-group .btn{
+    border-radius: 0% 10% 10% 0%;
+    padding: 5px;
+    background-color:rgb(219, 212, 212);
+    border: none;   
+}
+#Courses .Categories{
+    padding-top: 50px;
+}
+
+#Courses .Categories h5{
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+#Courses .Categories ul{
+    list-style-type:none;
+    padding: 20px 0px 20px 15px;
+}
+
+#Courses .Categories a:link{
+    text-decoration: none;
+}
+
+#Courses .Categories li{
+    color: grey;
+    font-size: 20px;   
+}
+#Courses .Categories li:hover{
+    color: rgb(204, 50, 71);
+}
+
+
+#Courses .Categories .btn{
+    width: auto !important;
+    margin:6px;
+}
+
+/*Ebooks*/
+#jumbo-examples #j3 .container-fluid{
+    width: 25%;
+    text-align: center;
+    background-color:rgb(204, 50, 71);
+    padding-top: 15px;
+    margin-top:120px ;
+}
+
+#jumbo-examples #j3 .container-fluid h5{
+    font-weight: 600;
+    
+}
+@media screen and (min-width: 700px) {
+    #jumbo-examples #j3 .container-fluid h5 {
+      font-size: 20px;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    #jumbo-examples #j3 .container-fluid h5 {
+      font-size: 10px;
+    }
+  }
+
+#Ebooks{
+    margin:40px;
+}
+/*registration form*/
+
+#register .container-fluid{   
+    width: 100%;
+    margin-top: 0;    
+    padding:20px 20px;
+}
+
+
+#register .jumbotron{
+    padding-top: 10px;
+    background-color:rgb(204, 50, 71);
+    color: whitesmoke;
+    border-radius: 0px !important;
+}
+
+
+@media screen and (min-width: 700px) {
+    #register .jumbotron h1{
+      font-size: 40px;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    #register .jumbotron h1{
+      font-size: 25px;
+    }
+  }
+
+
+#register #jform .container-fluid{
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    padding: 80px 40px 80px 40px;
+}
+
+#register #jform .form-group{
+    padding: 10px;
+}
+#register #jform .form-group .form-control{
+    background-color: rgb(235, 241, 250);
+}
+
+#register #jform .btn{
+    margin-left:10px ;
+}
+
+
+#contact{
+    margin-top: 50px;
+}
+
+#contact .top p{
+    font-size:20px;
+    padding-top: 20px;
+}
+
+#contact .phone{
+    padding-top: 20px;
+}
+
+#contact .phone input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-bottom:3px solid rgb(204, 50, 71);
+    border-radius: 0%;
+}
+
+#contact .phone .form-group{
+    padding:30px 0px 30px 0px;
+}
+
+#contact .phone .form-group p{
+    color: rgb(204, 50, 71);
+}
+
+#contact .address ul{
+    padding:30px 0px 0px 30px;
+}
+
+#contact .address li{
+    font-size: 16px;
+    color: rgb(130, 118, 118);
+    list-style: none
+    ;
+}
+
+#contact .address li::before{
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: rgb(204, 50, 71); /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; 
+}
+
+#contact .socials{
+    padding-top: 25px;
+    color: grey;
+}
+
+#contact .socials a{
+    color: grey;
+    text-decoration: none;
+    padding:20px;
+}

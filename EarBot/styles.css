@@ -1,0 +1,144 @@
+#landing{
+    background-color:black;
+    
+}
+
+#landing-page .landing-image img{
+    height: 250px;
+    width: 250px;
+    transition: transform .8s;
+    margin:30px 80px 0px 80px;
+}
+
+#landing-page .landing-image img:hover{
+    transform: rotate(360deg); 
+}
+
+#landing-page .landing-title h1{
+    text-align: center;
+    color: blanchedalmond;
+    margin-top:10px ;
+}
+
+#landing-page .landing-title .brand-name{
+    color: red;
+}
+
+/*Home*/
+
+#Home body{
+    padding-top: 50px;
+    width: 100%;
+
+}
+#Nav .navbar{
+    background-color: black;  
+    width: 100%; 
+}
+
+#Nav .navbar-toggler{
+    color: wheat ;
+}
+
+#Nav .navbar a{
+    color: wheat;   
+}
+
+
+#mid-home .Welcome {
+    background-image: url(img3.jpg);
+    background-size:cover;
+    height: 500px;
+    text-align: center;
+    
+}
+
+#mid-home .Text{
+    padding-top :25%;
+    color: rgb(69, 72, 113);
+}
+
+#mid-home .Text h2{   
+    color: rgb(60, 62, 82);
+}
+
+#bottom .col-sm-4{
+    padding: 0px;
+    margin-top: 0px;
+}
+#bottom .col-sm-4 img{
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    transition: all 1s;
+}
+
+#bottom .col-sm-4 img:hover{
+    transform: scale(1.1);
+}
+
+#footer {
+    text-align: center;
+    background-color: rgb(27, 25, 25);
+    color: blanchedalmond;
+    padding: 20px;
+}
+
+#footer .col-sm-4 i{
+    font-size: 50px;
+}
+
+/*Connect Page*/
+
+
+#mid-content{
+    background-color: rgb(214, 211, 207);  
+}
+
+#mid-content .col-sm-8{
+   
+    margin: 35px 20px 35px 35px;
+}
+
+#products .product{
+    margin: 30px;
+}
+ 
+#connect-gallery {
+    background-color: rgb(214, 211, 207);
+    text-align: center;
+}
+#connect-gallery h2{
+    padding-top: 15px;
+}
+
+#connect-gallery .col-sm-4 img{
+    width: 90%;
+    height: 250px;
+    margin: 20px;
+    background-size: cover;
+}
+
+#lower-content .content{
+    padding: 30px
+}
+
+#page-name{
+    padding-top: 50px;
+}
+
+#page-name .p-name{
+    margin: 50px ;
+    background-color: rgb(202, 200, 197);   
+    padding: 15px 15px 4px 15px;
+    border-radius: 5px;
+}
+
+#contact-form .card{
+    margin: 50px 20px 50px 50px ;
+}
+#contact-form .col-sm-4 .card{
+    margin: 50px 50px 50px 20px ;
+}
