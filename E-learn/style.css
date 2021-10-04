@@ -1,0 +1,74 @@
+#Navbar .navbar .btn{
+    border-color:grey !important;
+    color: grey;
+}
+
+#Navbar .navbar .btn:hover{
+    background-color: grey !important;
+    color: white;
+}
+
+#Jumbo .jumbotron{
+    background-image: url("pc1.jpg") !important;
+    background-size: cover;
+    height: 500px;
+    margin: 0;
+}
+
+#Jumbo .jumbotron h1{
+    font-size: 50px;
+    color: white;
+}
+
+#Jumbo .jumbotron p{
+    color: white;
+}
+
+#Jumbo .jumbotron .container{
+    padding-top: 100px ;
+}
+
+#Grid {
+    background: linear-gradient(to right, rgb(120, 28, 74) 30%, rgb(209, 77, 77) 80%);;
+    margin-top: 0%;
+}
+
+#Grid .content{
+    text-align: center;
+    padding:20px 0px 20px 0px;
+    color: seashell;
+}
+
+#Card {
+    padding: 45px 30px 45px 30px;
+    background-color: rgb(216, 228, 228);
+}
+
+#Card .card{
+    margin: 10px;
+}
+
+#Card .card:hover{
+    box-shadow: 7px 7px 7px 4px rgb(101, 98, 98);
+}
+
+footer .footer-content{
+    text-align: center;
+    padding: 10px;
+    list-style-type: none;
+}
+
+footer .footer-content ul{
+    list-style-type: none;
+    padding: 0%;
+}
+
+#lower {
+    background-color: rgb(31, 29, 29);
+}
+
+#lower .content p{
+   color: blanchedalmond;
+   text-align: center;
+   padding-top: 10px;
+}
